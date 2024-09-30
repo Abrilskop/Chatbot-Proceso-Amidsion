@@ -63,26 +63,26 @@ def check_all_messages(message):
         response('Hay diferentes tipos de becas disponibles según el rendimiento académico. Consulta la página oficial para más detalles.',
                 ['becas', 'ayuda', 'financiera'], required_words=['becas'])
 
-    response('Las clases comenzarán el 1 de marzo de 2025. Asegúrate de estar inscrito a tiempo.',
-             ['inicio', 'clases'], required_words=['inicio'])
+        response('Las clases comenzarán el 1 de marzo de 2025. Asegúrate de estar inscrito a tiempo.',
+                 ['inicio', 'clases'], required_words=['inicio'])
 
-    response('Las vacantes para cada carrera pueden variar. Consulta la página de admisión para más detalles.',
-             ['vacantes', 'carreras'], required_words=['vacantes'])
+        response('Las vacantes para cada carrera pueden variar. Consulta la página de admisión para más detalles.',
+                 ['vacantes', 'carreras'], required_words=['vacantes'])
 
-    response('Hay becas disponibles para estudiantes destacados. Consulta los requisitos en la página de becas.',
-             ['becas', 'ayuda', 'financiera'], required_words=['becas'])
+        response('Hay becas disponibles para estudiantes destacados. Consulta los requisitos en la página de becas.',
+                 ['becas', 'ayuda', 'financiera'], required_words=['becas'])
 
-    response('Puedes realizar consultas en la oficina de admisiones de lunes a viernes de 8 a 16 horas.',
-             ['consultas', 'oficina'], required_words=['oficina'])
+        response('Puedes realizar consultas en la oficina de admisiones de lunes a viernes de 8 a 16 horas.',
+                 ['consultas', 'oficina'], required_words=['oficina'])
 
-    response('Recomendamos prepararte con antelación para el examen. Hay materiales de estudio disponibles en línea.',
-             ['preparación', 'examen'], required_words=['preparación'])
+        response('Recomendamos prepararte con antelación para el examen. Hay materiales de estudio disponibles en línea.',
+                 ['preparación', 'examen'], required_words=['preparación'])
 
-    response('Recibirás un correo electrónico con la confirmación de tu inscripción una vez que completes el proceso.',
-             ['confirmación', 'inscripción'], required_words=['confirmación'])
+        response('Recibirás un correo electrónico con la confirmación de tu inscripción una vez que completes el proceso.',
+                 ['confirmación', 'inscripción'], required_words=['confirmación'])
 
-    response('Si tienes preguntas adicionales sobre el proceso de admisión, no dudes en preguntar aquí.',
-             ['preguntas', 'admisión'], required_words=['preguntas'])
+        response('Si tienes preguntas adicionales sobre el proceso de admisión, no dudes en preguntar aquí.',
+                 ['preguntas', 'admisión'], required_words=['preguntas'])
 
         best_match = max(highest_prob, key=highest_prob.get)
         #print(highest_prob)
